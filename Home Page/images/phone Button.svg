@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115" height="115" viewBox="0 0 115 115">
+  <defs>
+    <filter id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" x="0" y="0" width="115" height="115" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Circle_Button_" data-name="Circle Button " transform="translate(23.816 16)">
+    <g transform="matrix(1, 0, 0, 1, -23.82, -16)" filter="url(#Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_)">
+      <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_2" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="67" height="67" rx="33.5" transform="translate(24 16)" fill="#fff"/>
+    </g>
+    <g id="Icon_" data-name="Icon " transform="translate(19 19)">
+      <rect id="Area_ICON:feather_phone_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/phone][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="29" height="28" transform="translate(0.184)" fill="rgba(253,73,198,0.35)" opacity="0"/>
+      <g id="Icon" transform="translate(2.972 2.955)">
+        <path id="Path" d="M25.054,19.142v3.514A2.343,2.343,0,0,1,22.5,25a23.175,23.175,0,0,1-10.109-3.6,22.826,22.826,0,0,1-7.028-7.028A23.175,23.175,0,0,1,1.77,4.22,2.343,2.343,0,0,1,4.1,1.667H7.614A2.342,2.342,0,0,1,9.957,3.681a15.011,15.011,0,0,0,.819,3.292,2.341,2.341,0,0,1-.527,2.471L8.762,10.931a18.721,18.721,0,0,0,7.028,7.028l1.487-1.487a2.341,2.341,0,0,1,2.471-.527,15.011,15.011,0,0,0,3.292.819A2.343,2.343,0,0,1,25.054,19.142Z" transform="translate(-1.76 -1.667)" fill="none" stroke="#1c2126" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+      </g>
+    </g>
+  </g>
+</svg>

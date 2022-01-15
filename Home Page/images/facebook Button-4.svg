@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115" height="115" viewBox="0 0 115 115">
+  <defs>
+    <filter id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" x="0" y="0" width="115" height="115" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Circle_Button_" data-name="Circle Button " transform="translate(24 16)">
+    <g transform="matrix(1, 0, 0, 1, -24, -16)" filter="url(#Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_)">
+      <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_2" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="67" height="67" rx="33.5" transform="translate(24 16)" fill="#fff"/>
+    </g>
+    <g id="Icon_" data-name="Icon " transform="translate(20 19)">
+      <rect id="Area_ICON:feather_facebook_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/facebook][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="28" height="28" fill="rgba(253,73,198,0.35)" opacity="0"/>
+      <g id="Icon" transform="translate(7.872 2.956)">
+        <path id="Path" d="M18.718,1.667H15.2A5.856,5.856,0,0,0,9.347,7.523v3.514H5.833v4.686H9.347v9.369h4.686V15.723h3.514l1.171-4.686H14.033V7.523A1.171,1.171,0,0,1,15.2,6.352h3.514Z" transform="translate(-5.833 -1.667)" fill="none" stroke="#1c2126" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+      </g>
+    </g>
+  </g>
+</svg>

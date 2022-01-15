@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115" height="115" viewBox="0 0 115 115">
+  <defs>
+    <filter id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" x="0" y="0" width="115" height="115" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Circle_Button_" data-name="Circle Button " transform="translate(24 16)">
+    <g transform="matrix(1, 0, 0, 1, -24, -16)" filter="url(#Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_)">
+      <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_2" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="67" height="67" rx="33.5" transform="translate(24 16)" fill="#fff"/>
+    </g>
+    <g id="Icon_" data-name="Icon " transform="translate(20 19)">
+      <rect id="Area_ICON:feather_twitter_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/twitter][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="28" height="28" fill="rgba(253,73,198,0.35)" opacity="0"/>
+      <g id="Icon" transform="translate(0.8 4.114)">
+        <path id="Path" d="M26.6,2.5A12.783,12.783,0,0,1,22.924,4.3,5.247,5.247,0,0,0,13.718,7.81V8.98A12.487,12.487,0,0,1,3.176,3.674S-1.509,14.216,9.033,18.9a13.631,13.631,0,0,1-8.2,2.342c10.542,5.857,23.427,0,23.427-13.47a5.255,5.255,0,0,0-.094-.973A9.033,9.033,0,0,0,26.6,2.5Z" transform="translate(-0.833 -2.491)" fill="none" stroke="#1c2126" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+      </g>
+    </g>
+  </g>
+</svg>

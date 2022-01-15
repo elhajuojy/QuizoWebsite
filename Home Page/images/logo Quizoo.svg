@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="155" height="60.958" viewBox="0 0 155 60.958">
+  <g id="logo_Quizoo" data-name="logo Quizoo" transform="translate(-0.035)">
+    <text id="Title" transform="translate(0.035 32)" fill="#101010" font-size="44" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Quiz</tspan><tspan y="0" fill="#7800ff">oo</tspan><tspan y="0"> </tspan></text>
+    <path id="Path_1" data-name="Path 1" d="M42.294,1.069A28.455,28.455,0,0,1,20.922,11.094a24.664,24.664,0,0,1-8.528-1.548A27.2,27.2,0,0,1,0,0" transform="matrix(0.998, 0.07, -0.07, 0.998, 99.366, 44.202)" fill="none" stroke="#7800ff" stroke-linecap="round" stroke-width="5"/>
+  </g>
+</svg>

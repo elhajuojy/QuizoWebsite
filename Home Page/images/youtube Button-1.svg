@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115" height="115" viewBox="0 0 115 115">
+  <defs>
+    <filter id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" x="0" y="0" width="115" height="115" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Circle_Button_" data-name="Circle Button " transform="translate(23.525 16)">
+    <g transform="matrix(1, 0, 0, 1, -23.53, -16)" filter="url(#Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_)">
+      <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_2" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="67" height="67" rx="33.5" transform="translate(24 16)" fill="#fff"/>
+    </g>
+    <g id="Icon_" data-name="Icon " transform="translate(20 19)">
+      <rect id="Area_ICON:feather_youtube_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/youtube][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="28" height="28" transform="translate(0.475)" fill="rgba(253,73,198,0.35)" opacity="0"/>
+      <g id="Icon" transform="translate(0.711 5.297)">
+        <path id="Path" d="M26.063,6.168a3.256,3.256,0,0,0-2.271-2.343c-2.016-.492-10.074-.492-10.074-.492s-8.058,0-10.074.54A3.254,3.254,0,0,0,1.373,6.214a33.937,33.937,0,0,0-.54,6.2,33.919,33.919,0,0,0,.54,6.242A3.255,3.255,0,0,0,3.644,20.9c2.016.54,10.074.54,10.074.54s8.058,0,10.074-.54a3.254,3.254,0,0,0,2.271-2.342,33.917,33.917,0,0,0,.54-6.149A33.934,33.934,0,0,0,26.063,6.168Z" transform="translate(-0.833 -3.333)" fill="none" stroke="#1c2126" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+        <path id="Path-2" data-name="Path" d="M8.125,14.727,14.86,10.9,8.125,7.067Z" transform="translate(2.125 -1.819)" fill="none" stroke="#1c2126" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+      </g>
+    </g>
+  </g>
+</svg>

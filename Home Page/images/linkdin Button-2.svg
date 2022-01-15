@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="115" height="115" viewBox="0 0 115 115">
+  <defs>
+    <filter id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" x="0" y="0" width="115" height="115" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Circle_Button_" data-name="Circle Button " transform="translate(24.232 16)">
+    <g transform="matrix(1, 0, 0, 1, -24.23, -16)" filter="url(#Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_)">
+      <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_2" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="67" height="67" rx="33.5" transform="translate(24 16)" fill="#fff"/>
+    </g>
+    <g id="Icon_" data-name="Icon " transform="translate(20 19)">
+      <rect id="Area_ICON:feather_linkedin_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/linkedin][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="28" height="28" transform="translate(-0.232)" fill="rgba(253,73,198,0.35)" opacity="0"/>
+      <g id="Icon" transform="translate(1.929 2.955)">
+        <path id="Path" d="M15.361,6.667a7.027,7.027,0,0,1,7.028,7.028v8.2H17.7v-8.2a2.342,2.342,0,1,0-4.685,0v8.2H8.333v-8.2A7.028,7.028,0,0,1,15.361,6.667Z" transform="translate(1.037 0.361)" fill="none" stroke="#1c2126" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+        <rect id="Rect" width="4.685" height="14.056" transform="translate(0 8.199)" fill="none" stroke="#1c2126" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+        <circle id="Path-2" data-name="Path" cx="2.343" cy="2.343" r="2.343" transform="translate(0 0)" fill="none" stroke="#1c2126" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="453" height="188.348" viewBox="0 0 453 188.348">
+  <g id="Group_25" data-name="Group 25" transform="translate(-198 -367.231)">
+    <g id="logo_Quizoo" data-name="logo Quizoo" transform="translate(83 104.738)">
+      <text id="Title" transform="translate(115 374)" fill="#101010" font-size="129" font-family="AcuminPro-Bold, Acumin Pro" font-weight="700"><tspan x="0" y="0">Quiz</tspan><tspan y="0" fill="#7800ff">oo</tspan><tspan y="0"> </tspan></text>
+      <path id="Path_1" data-name="Path 1" d="M60.24,38.6a80.383,80.383,0,0,1-27.058-4.737C7.987,25.034-5.659,5.026-6.228,4.179A7.5,7.5,0,0,1-4.179-6.228,7.5,7.5,0,0,1,6.228-4.179c.1.148,11.575,16.758,31.922,23.89A64.759,64.759,0,0,0,60.24,23.6c35.322,0,55.549-25.183,55.749-25.438A7.5,7.5,0,0,1,127.777,7.44C126.776,8.712,102.765,38.6,60.24,38.6Z" transform="matrix(0.998, 0.07, -0.07, 0.998, 401.398, 403.309)" fill="#7800ff"/>
+    </g>
+    <path id="Path_138" data-name="Path 138" d="M914.8,238.544l-.02.018a10.565,10.565,0,0,0-15.752,14.045l-.02.018,14.081,15.793,15.793-14.081a10.579,10.579,0,0,0-14.08-15.793Z" transform="translate(-292.799 131.827)" fill="#7800ff"/>
+  </g>
+</svg>
