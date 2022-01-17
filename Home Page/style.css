@@ -9,7 +9,7 @@ body{
 
 .container{
     display: grid;
-    padding: 20px;
+    /* padding: 20px; */
 }
 nav{
     display: grid;
@@ -44,6 +44,7 @@ nav li{
 }
 
 .section1{
+    margin: 100px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -52,3 +53,51 @@ nav li{
 .box-1{
     text-align: center;
 }
+.box-1 img{
+    width: 60%;
+}
+
+
+.img-people img{
+    width: 80%;
+
+}
+
+.section2{
+    margin-top: 18px;
+    text-align: center;
+    background-color: #4525F2;
+    height: 700px;
+}
+.Qutes-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 p,h1{
+    text-align: center;
+}
+
+
+footer{
+    background-color: #4525F2;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
