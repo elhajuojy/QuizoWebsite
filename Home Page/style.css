@@ -64,12 +64,14 @@ nav li{
 }
 
 .section2{
-    margin-top: 18px;
     text-align: center;
     background-color: #4525F2;
     height: 700px;
+    padding-top: 100px;
+    color: white;
 }
 .Qutes-container{
+    padding-top: 100px;
     position: relative;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -101,3 +103,13 @@ footer{
     color: white;
 }
 
+.wave-pic img{
+    transform: scale(-1,-1);
+}
+
+.wave-pic{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    bottom: -10px;
+}
