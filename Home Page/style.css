@@ -4,6 +4,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 
 }
 
@@ -31,11 +32,13 @@ nav li{
     margin: 10px;
     display: inline;
     text-align: center;
+    transition: 0.2s ease-in;
+    
 }
 nav li:hover{
-    color:blue;
+    color: #6C63FF;
     cursor: pointer;
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid #6C63FF;
     
 }
 
