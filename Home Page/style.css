@@ -32,6 +32,12 @@ nav li{
     display: inline;
     text-align: center;
 }
+nav li:hover{
+    color:blue;
+    cursor: pointer;
+    border-bottom: 3px solid blue;
+    
+}
 
 .btn-nav{
   display: flex;
@@ -49,7 +55,7 @@ button{
   font-weight: bold;
   letter-spacing: 1px;
   padding: 10px 20px 13px;
- outline: 0; 
+  outline: 0; 
   border: 1px solid black;
   cursor: pointer;
   position: relative;
@@ -58,9 +64,10 @@ button{
   margin: 10px;
 }
 
- button:after {
+button:after {
   content: "";
-  background-color: #ffe54c;
+  background-color: #ffffff;
+  color: white;
   width: 100%;
   z-index: -1;
   position: absolute;
@@ -71,9 +78,16 @@ button{
 }
 
 button:hover:after {
-  top: 0px;
-  left: 0px;
+    background-color: #6C63FF;
+    color: white;
+    
+    top: 0px;
+    left: 0px;
 }
+button:hover {
+    color: white;
+}
+
 
 .section1{
     margin: 100px;
@@ -82,12 +96,20 @@ button:hover:after {
     align-items: center;
 }
 
+
+.section1 img{
+    cursor: pointer;
+}
+
+
+
 .btn{
     display: flex;
 }
 
 *::selection{
-    background-color: yellow;
+    background-color: rgb(111, 0, 255);
+    color: white;
 }
 
 .box-1{
@@ -153,3 +175,4 @@ footer{
     padding: 0;
     bottom: -10px;
 }
+
