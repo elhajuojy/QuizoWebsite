@@ -17,21 +17,32 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
 
 }
 
+
+
+
 h3{
 
-    font-size: 30px;
+    font-size: 50px;
     /* text-align: left;
     padding-left: 120px; */
     
 }
+/* 
+h2{
+
+    color: darkslategrey;
+
+} */
+
 
 input[type=text],input[type=password]{
     margin-top: 10px;
-    width: 200px;
-    height: 30px;
+    width: 300px;
+    height: 40px;
 }
 
 input[type=checkbox]{
@@ -41,6 +52,32 @@ input[type=checkbox]{
     height: 20px;
 
 }
+
+
+
+
+input{
+    
+    padding: 10px;
+    border: none;
+    box-shadow: none;
+    font: inherit;
+    width: 100%;
+    transition: 0.3s;
+    background-color: #F2F4F8;
+    border-radius: 3px;
+    height: 200px;
+    
+}
+
+
+input:focus{
+
+    outline: 0;
+    /* box-shadow: 0 0 0 0.15rem rgb(49, 49, 47); */
+    transform: scale(1.020);
+}
+
 
 .keepMe{
     
@@ -84,7 +121,8 @@ button:hover {
 
 
 .social-media img{
-    width: 8%;
+    padding-top: 30px;
+    width: 5%;
     margin: 10px;
 }
 
@@ -119,13 +157,15 @@ button:hover {
 }
 
 .right-side{
-    background-image: url("images/Rectangle\ 64.png");
-    
+    background-image: url("images/karsten-wurth-karsten-wuerth-7BjhtdogU3A-unsplash.jpg");
+    background-size: cover;
 }
 
 .left-side{
     position: absolute;
     top: 20%;
+    left: 20%;
+
 
     
 }
