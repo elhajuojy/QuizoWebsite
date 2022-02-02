@@ -7,7 +7,11 @@ body{
     
 
 }
-
+.LogInLink{
+    text-decoration: none;
+    color: black;
+    
+}
 .container{
     display: grid;
     /* padding: 20px; */
