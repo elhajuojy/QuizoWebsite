@@ -55,8 +55,12 @@ nav li:hover{
   justify-content: space-evenly; */
 
 }
+#loginId{
+    align-items: center;
+    text-align: center;
+}
 
-button{
+button,#LoginId{
   font-family: 'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 12px;
   font-weight: bold;
@@ -69,9 +73,10 @@ button{
   background-color: rgba(0, 0, 0, 0);
   width: 70%;
   margin: 10px;
+  text-align: center;
 }
 
-button:after {
+button:after,#LoginId:after {
   content: "";
   background-color: #ffffff;
   color: white;
@@ -84,14 +89,14 @@ button:after {
   transition: 0.2s;
 }
 
-button:hover:after {
+button:hover:after,#LoginId:hover:after {
     background-color: #6C63FF;
     color: white;
     
     top: 0px;
     left: 0px;
 }
-button:hover {
+button:hover,#LoginId:hover {
     color: white;
 }
 
