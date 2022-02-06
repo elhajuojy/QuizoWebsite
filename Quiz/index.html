@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>quiz </title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo Quizoo.png" alt="">
+        <div class="link-nav">
+            <a href="#">Quiz</a>
+            <a href="#">Articles</a>
+        </div>
+        <div class="container">
+            <div class="Profile" onclick="menuToggle();">
+
+                <img id="ProfilePhoto" src="images/Ellipse 31.png" alt="">
+
+            </div>
+            <div class="menu ">
+                <h3>Samantha</h3>
+                <ul>
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">Favourite</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Sign out</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </header>
+    <section>
+        <p> Question 1 of 20 </p>
+        <h1>
+            what is the correct syntax for defining a class called Game .
+            of it inherits from a parent class called LogicGame ?
+        </h1>
+        <div class="check-options ">
+            <div class="radio">
+                <input type="radio" name="answer" class="btnRadio" value="1"> <label for="1">def Game.LogicGame(): <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass</label> <br>
+            </div>
+            <div class="radio">
+                <input type="radio" name="answer" class="btnRadio" value="2"> <label for="2">Class Game(LogicGame):<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass</label> <br>
+            </div>
+            <div class="radio">
+                <input type="radio" name="answer" class="btnRadio" value="3"> <label for="3">Class Game.LogicGame():<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass</label> <br>
+            </div>
+            <div class="radio">
+                <input type="radio" name="answer" class="btnRadio" value="4"> <label for="4">def
+                    Game(LogicGame):<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pass</label>
+            </div>
+        </div>
+        <a href="#" id="start">
+            Next
+        </a>
+
+    </section>
+    <!-- <footer>
+        <p>Privacy Policy</p>
+        <p>Terms of Service</p>
+    </footer> -->
+
+
+    <script src="script.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
