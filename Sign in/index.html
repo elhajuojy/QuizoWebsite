@@ -16,10 +16,29 @@
 
         </div>
         <div class="left-side">
-            <form action="">
+            <form action="" class="regiser-form">
+                <h3>Create An Account</h3>
+                <!-- <h2>Join Quizoo today.</h2> -->
+                <p class="toglleMe">Already an user? <span><a href="#">Sign In </a></span></p>
+                <input type="text" placeholder="First Name"><br>
+                <input type="password" placeholder="Last Name"><br>
+                <input type="text" placeholder="Email Address"><br>
+                <input type="password" placeholder="Password"><br>
+                <input type="checkbox" name="" id=""><label for="keepmesign">Keep me signed
+                    in</label><br>
+                <button> Sign in </button>
+                <p class=" keepMe">Or Sign in With </p>
+                <div class="social-media">
+                    <img src="images/Circle Button.png" alt="">
+                    <img src="images/Circle Button-1.png" alt="">
+                    <img src="images/Circle Button-2.png" alt="">
+                    <img src="images/Circle Button-3.png" alt="">
+                </div>
+            </form>
+            <form action="" class="login">
                 <h3>Sign In</h3>
                 <!-- <h2>Join Quizoo today.</h2> -->
-                <p>New user ? <span><a href="#">Create New Account </a></span></p>
+                <p class="toglleMe">New user ? <span><a href="#">Create New Account </a></span></p>
                 <input type="text" placeholder="Username or email"><br>
                 <input type="password" placeholder="password"><br>
                 <input type="checkbox" name="" id=""><label for="keepmesign" ">Keep me signed
@@ -33,10 +52,18 @@
                         <img src="images/Circle Button-3.png" alt="">
                     </div>
             </form>
+
         </div>
     </div>
 
     <script src="script.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        $('.toglleMe a').click(function () {
+            $('form').animate({ height: "toggle", opacity: "toggle" }, "slow");
+        });
+
+    </script>
 </body>
 
 </html>

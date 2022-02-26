@@ -1,0 +1,50 @@
+[
+    {
+        "question": "What is the output of print(10 - 4 * 2)",
+        "answer": "2",
+        "opt": [
+            "12",
+            "39",
+            "24"
+        ]
+    },
+    {
+        "question": "Python function always returns a value",
+        "answer": "TRUE",
+        "opt": [
+            "FALSE"
+        ]
+    },
+    {
+        "question": "if -3 will evaluate to True",
+        "answer": "TRUE",
+        "opt": [
+            "FALSE"
+        ]
+    },
+    {
+        "question": "Choose the correct function to get the ASCII code of a character",
+        "answer": "ord('char')",
+        "opt": [
+            "char('char')",
+            "ascii('char')"
+        ]
+    },
+    {
+        "question": "Select which is true for Python tuple",
+        "answer": "A tuple maintains the order of items",
+        "opt": [
+            "We can change the tuple once created",
+            "A tuple is unordered"
+        ]
+    },
+    {
+        "question": "What is the type of the following variable : x = -5j",
+        "answer": "complex",
+        "opt": [
+            "int",
+            "real",
+            "imaginary"
+        ]
+    }
+]
