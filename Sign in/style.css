@@ -115,8 +115,39 @@ button:hover {
     padding-top: 30px;
     width: 5%;
     margin: 10px;
+    cursor: pointer;
+}
+p .keepMe{
+    position: relative;
+}
+/* 
+.keepMe::before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top:40%;
+
 }
 
+
+.keepMe::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top:50%;
+
+
+    
+
+} */
 
 .countainer{
     display: grid;
