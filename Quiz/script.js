@@ -100,6 +100,7 @@ function outputQuestion(question, parent, tbtn) {
 function menuToggle() {
     const toggleMenu = document.querySelector('.menu');
     toggleMenu.classList.toggle('active');
+
 }
 
 
