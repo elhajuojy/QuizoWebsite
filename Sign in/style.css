@@ -195,3 +195,18 @@ p .keepMe{
 .regiser-form{
     display: none;
 }
+
+/* validtion styling */
+
+input.invalid{
+    border: 1px solid red;
+}
+
+.error-hint{
+    color: red;
+    font-size: 80%;
+}
+
+.hidden{
+    display: none;
+}

@@ -39,12 +39,17 @@
                 <h3>Sign In</h3>
                 <!-- <h2>Join Quizoo today.</h2> -->
                 <p class="toglleMe">New user ? <span><a href="#">Create New Account </a></span></p>
-                <input type="text" placeholder="Username or email"><br>
-                <input type="password" placeholder="password"><br>
+                <input type="text" placeholder="Username or email" name="userNameOrEmail" class=""><br>
+                <p class="error-hint hidden">Username or email are required</p>
+
+                <input type="password" name="password" placeholder="password" class=""><br>
+                <p class="error-hint hidden">password is required</p>
                 <input type="checkbox" name="" id=""><label for="keepmesign" ">Keep me signed
                     in</label><br>
-                <button> Sign in </button>
-                <p  class=" keepMe">Or Sign in With </p>
+                <button class=" btn-signIn"> Sign in </button>
+
+
+                    <p class=" keepMe">Or Sign in With </p>
                     <div class="social-media">
                         <img src="images/Circle Button.png" alt="">
                         <img src="images/Circle Button-1.png" alt="">
