@@ -3,6 +3,9 @@ const passwordInput = document.querySelector('input[name="password"]');
 const error_hint = document.querySelector('.error-hint');
 const error_hintpass = document.querySelector('.error_hintpass');
 const btn = document.querySelector(".btn-signIn");
+const url = 'SignInData.json';
+
+
 
 
 
@@ -27,6 +30,8 @@ const validateInputsPass = () => {
 btn.addEventListener("click", (e) => {
     e.preventDefault();
     validateInputs();
+    validateInputsPass();
+    LoadData();
 
 
 });
