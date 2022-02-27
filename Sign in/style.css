@@ -202,10 +202,12 @@ input.invalid{
     border: 1px solid red;
 }
 
-.error-hint{
+.error-hint,.error_hintpass{
     color: red;
     font-size: 80%;
 }
+
+
 
 .hidden{
     display: none;
