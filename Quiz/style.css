@@ -145,14 +145,57 @@ footer{
 }
 
 h1{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+    color: #18191a;
+}
+
+.btns{
+    /* text-decoration: none;
+    align-items: left; */
+    background-color: #0276FF;
+    border-radius: 8px;
+    /* border-style: none; */
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 100%;
+    line-height: 1.15;
+    padding: 10px 31px;
+    /* text-align: center; */
+    /* text-transform: none; */
+    margin: 10px;
+    margin-bottom: 30px;
+    transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+    /* margin-left: 50%; */
+    
+
 }
 
 
-/* CSS */
-#start{
+#Exit-game{
+    /* text-decoration: none;
+    align-items: left;
+    background-color: #0276FF;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff; */
+    cursor: pointer;
+    /* font-size: 100%; */
+    /* line-height: 1.15; */
+    /* padding: 10px 31px; */
+    text-align: center;
+    text-transform: none;
+    transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+    margin-left: 90%;
     
+  }
+  
+/* CSS */
+#start, .next{
     text-decoration: none;
     align-items: left;
     background-color: #0276FF;
@@ -163,12 +206,12 @@ h1{
     color: #fff;
     cursor: pointer;
     font-size: 100%;
-    line-height: 1.15;
+    /* line-height: 1.15; */
     padding: 10px 31px;
     text-align: center;
     text-transform: none;
     transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
-    margin-left: 100%;
+    margin-left: 50%;
     
   }
   
