@@ -62,6 +62,10 @@ passwordInput.addEventListener("input", () => {
 
 
 //email valadtion  for better user experince 
+
+let email = document.getElementById("email");
+let number = document.getElementById('number');
+let span = document.getElementsByTagName('span');
 email.onkeydown = function () {
     const regex = /^([\.\_a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-zA-Z]){2,8}$/;
     const regexo = /^([\.\_a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-zA-Z]){2,3}\.[a-zA-Z]{1,3}$/;
