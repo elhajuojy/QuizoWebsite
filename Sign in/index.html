@@ -39,7 +39,7 @@
                 <h3>Sign In</h3>
                 <!-- <h2>Join Quizoo today.</h2> -->
                 <p class="toglleMe">New user ? <span><a href="#">Create New Account </a></span></p>
-                <input type="text" placeholder="Username or email" name="userNameOrEmail" class=""><br>
+                <input type="text" placeholder="Username or email" name="userNameOrEmail" class="" id="email"><br>
                 <p class="error-hint hidden">Username or email are required</p>
 
                 <input type="password" name="password" placeholder="password" class=""><br>
@@ -67,6 +67,14 @@
         $('.toglleMe a').click(function () {
             $('form').animate({ height: "toggle", opacity: "toggle" }, "slow");
         });
+
+
+        let email = document.getElementById("email");
+        let number = document.getElementById('number');
+        let span = document.getElementsByTagName('span');
+
+
+
 
     </script>
 </body>

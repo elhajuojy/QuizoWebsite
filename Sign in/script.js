@@ -48,7 +48,7 @@ btn.addEventListener("click", (e) => {
     e.preventDefault();
     validateInputs();
     validateInputsPass();
-    LoadData();
+    //LoadData();
 
 
 });
@@ -60,3 +60,24 @@ passwordInput.addEventListener("input", () => {
     validateInputsPass();
 })
 
+
+//email valadtion 
+email.onkeydown = function () {
+    const regex = /^([\.\_a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-zA-Z]){2,8}$/;
+    const regexo = /^([\.\_a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-zA-Z]){2,3}\.[a-zA-Z]{1,3}$/;
+    if (regex.test(email.value) || regexo.test(email.value)) {
+
+        // console.log("hello world");
+        nameInput.textContent = "Your email is valid";
+        nameInput.style.color = 'lime';
+        nameInput.classList.add('invalid');
+    }
+    else {
+        // span[0].innerText = "Your email is not valid";
+        // span[0].style.color = 'red';
+        nameInput.textContent = "Your email is not valid";
+        nameInput.style.color = 'red';
+        nameInput.classList.add('invalid');
+    }
+
+}
