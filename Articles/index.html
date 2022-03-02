@@ -22,7 +22,7 @@
                 <img id="ProfilePhoto" src="images/Ellipse 31.png" alt="">
 
             </div>
-            <div class="menu active">
+            <div class="menu">
                 <h3>Samantha</h3>
                 <ul>
                     <li><a href="#">My Profile</a></li>
@@ -33,9 +33,87 @@
             </div>
 
         </div>
-
     </header>
-    <script src="script.js"></script>
+    <div class="main-contatiner">
+        <div class="search">
+            <input class="input-search" type="search" placeholder="search">
+        </div>
+        <div class="main-article">
+            <div class="text-inside">
+                <h2 class="text-limoni">Learning Python:From Zero to Hero</h2>
+                <hr class="text-limoni">
+                <h4>This post was originally published at TK's Blog.</h4>
+                <p>First of all, what is Python? According to its creator, Python is a:
+                    “high-level programming language, and its core design philosophy is all about code readability and a
+                    syntax which allows programmers to express concepts in a few lines of code.”
+                </p>
+                <a href="#" class="text-limoni">Read more</a>
+
+
+            </div>
+            <div class="image-main-article">
+                <img src="images/how-to-code-in-python.png" width="650px" height="100%" alt="">
+            </div>
+
+        </div>
+        <div class="sub-article">
+            <div class="art1">
+                <img src="images/csharp-using-declaration.png" alt="">
+                <h5>learn python in deep</h5>
+                <p>python</p>
+            </div>
+            <div class="art1">
+                <img src="images/1 8Sfa2kyrjq8I2ZtFQkpejA.png" alt="">
+                <h5>These everyday tech tools changed my life</h5>
+                <p>Csharp</p>
+            </div>
+            <div class="art1">
+                <img src="images/python-socket-programming.jpg" alt="">
+                <h5>csharp tricks</h5>
+                <p>Csharp</p>
+            </div>
+            <div class="art1 hidden">
+                <img src="images/entity-framework-33.jpg" alt="">
+                <h5>entity framework code-first explain</h5>
+                <p>DotNet</p>
+            </div>
+            <div class="art1 hidden">
+                <img src="images/csharp-using-declaration.png" alt="">
+                <h5>learn python in deep</h5>
+                <p>python</p>
+            </div>
+            <div class="art1 hidden">
+                <img src="images/1 8Sfa2kyrjq8I2ZtFQkpejA.png" alt="">
+                <h5>These everyday tech tools changed my life</h5>
+                <p>Csharp</p>
+            </div>
+            <div class="art1 hidden">
+                <img src="images/csharp-using-declaration.png" alt="">
+                <h5>csharp tricks</h5>
+                <p>Csharp</p>
+            </div>
+            <div class="art1 hidden">
+                <img src="images/entity-framework-33.jpg" alt="">
+                <h5>entity framework code-first explain</h5>
+                <p>DotNet</p>
+            </div>
+        </div>
+        <a href="#" class="text-limoni explore-more">Explore all</a>
+
+    </div>
+    <footer>
+        <p>© 2022 َQuizoo. All Rights Reserved.</p>
+        <p>Privacy Policy</p>
+        <p>Terms of Service</p>
+    </footer>
+
+    <script>
+        function menuToggle() {
+            const toggleMenu = document.querySelector('.menu');
+            toggleMenu.classList.toggle('active');
+        }
+
+    </script>
 </body>
 
 </html>
