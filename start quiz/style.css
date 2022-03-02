@@ -150,10 +150,8 @@ h1{
 
 /* CSS */
 #start{
-    
     text-decoration: none;
     align-items: center;
-   
     background-color: #0276FF;
     border-radius: 8px;
     border-style: none;
@@ -184,3 +182,4 @@ h1{
 #text-section{
     margin-bottom:59px ;
 }
+
