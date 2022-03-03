@@ -36,7 +36,8 @@
     </header>
     <div class="main-contatiner">
         <div class="search">
-            <input class="input-search" type="search" placeholder="search">
+            <input class="input-search" type="search" placeholder="Search">
+            </hr>
         </div>
         <div class="main-article">
             <div class="text-inside">
@@ -98,7 +99,7 @@
                 <p>DotNet</p>
             </div>
         </div>
-        <a href="" class="text-limoni explore-more" onclick="exploreonclik()">Explore all</a>
+        <button class="explore-more">Explore more</button>
 
     </div>
     <footer>
@@ -107,6 +108,15 @@
         <p>Terms of Service</p>
     </footer>
     <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('.explore-more').click(function () {
+            $('.hidden').toggle();
+
+
+        })
+
+    </script>
 
 </body>
 
