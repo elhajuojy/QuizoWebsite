@@ -107,7 +107,6 @@ li{
     border: none;
 }
 .active{
-  
     transform: scale(1.025);
     visibility: visible;
     opacity: 1;
@@ -158,6 +157,16 @@ li{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
+}
+
+
+.text-disc{
+    opacity: 0.5;
+}
+
+.art1 p,h5{
+    color: #2d2d30;
+    padding: 5px;
 }
 
 .art1:hover{
