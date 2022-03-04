@@ -4,6 +4,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s ease-in;
     
 
 }
@@ -58,6 +59,13 @@ nav li:hover{
 #loginId{
     align-items: center;
     text-align: center;
+}
+
+
+
+a{
+    color: rgb(24, 23, 23);
+    text-decoration: none;
 }
 
 button,#LoginId{
