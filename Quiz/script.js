@@ -1,10 +1,23 @@
 const btn = document.querySelector(".btn");
 const main = document.querySelector(".QuizSection");
+const imgsContainer = document.querySelector(".image-contrinaer");
 const message = pageEles(main, 'h1', 'Start The Quiz', 'message');
 message.style.textAlign = "center";
 const url = 'quiz.json';
 const output = pageEles(main, 'div', '', 'game');
 const game = { score: 0 };
+
+
+
+function imageCreate(herfimge) {
+    var image = document.createElement("IMG");
+    image.setAttribute("src", herfimge);
+    image.setAttribute("width", "304");
+    main.appendChild(image);
+
+}
+
+
 
 
 btn.onclick = LoadData;
@@ -44,9 +57,12 @@ function createQuestion(data) {
         message.innerHTML = '<h1> Game Over</h1><div>you scored ' + game.score + ' correct out of ' + data.total;
         if (game.score > 3) {
             message.style.color = 'green';
+            imageCreate("/Quiz/images/win.png");
+
         }
         else {
             message.style.color = 'red';
+            imageCreate("/Quiz/images/fail.png")
         }
         tbtn.style.display = 'none';
         //tbtn.textContent = 'restart the game';
