@@ -36,7 +36,7 @@
     </header>
     <div class="main-contatiner">
         <div class="search">
-            <input class="input-search" type="search" placeholder="Search">
+            <input class="input-search" type="search" placeholder="Search for Articles">
             </hr>
         </div>
         <div class="main-article">
@@ -81,7 +81,7 @@
                     loaded from cache when they visit your site, which leads to faster loading time. Also,v</h5>
                 <p>Csharp</p>
             </div>
-            <div class="art1 hidden">
+            <div class="art1">
                 <img src="images/entity-framework-33.jpg" alt="">
                 <p class="text-disc">25 july 2021/Web Desgin</p>
                 <h5>entity framework code-first explain</h5>
@@ -126,6 +126,14 @@
         $('.explore-more').click(function () {
             $('.hidden').toggle();
             let textbtn = document.getElementsByClassName('explore-more');
+            if ($(".explore-more").text() == "Explore more") {
+                $(".explore-more").text("show less");
+            }
+            else {
+                $(".explore-more").text("Explore more");
+            }
+
+
 
         })
 
