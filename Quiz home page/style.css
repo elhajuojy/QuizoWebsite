@@ -130,15 +130,15 @@ span{
     font-size: 14px;
     color: #cecece;
 }
-
+/* 
 a{
   font-size: 16px;
     color: #558;
   transition: 0.5s;
-}
+} */
 
 a:hover{
-    color: rgb(59, 57, 57);
+   color: #FDB44B;
 }
 
 
