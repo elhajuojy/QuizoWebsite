@@ -17,9 +17,6 @@ header{
     justify-content: space-around;
 }
 
-
-
-
 .link-nav a{
     margin-left: 10px;
     text-decoration: none;
@@ -211,7 +208,7 @@ h1{
     text-align: center;
     text-transform: none;
     transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
-    margin-left: 50%;
+    margin-left: 45%;
     
   }
   

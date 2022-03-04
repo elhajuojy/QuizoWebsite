@@ -1,6 +1,7 @@
 const btn = document.querySelector(".btn");
 const main = document.querySelector(".QuizSection");
 const message = pageEles(main, 'h1', 'Start The Quiz', 'message');
+message.style.textAlign = "center";
 const url = 'quiz.json';
 const output = pageEles(main, 'div', '', 'game');
 const game = { score: 0 };
@@ -34,6 +35,7 @@ function LoadData() {
 function createQuestion(data) {
     const el = pageEles(output, 'div', '', 'question');
     const tbtn = pageEles(el, 'button', 'Next', 'next');
+    tbtn.style.textAlign = "center";
     tbtn.onclick = () => {
         el.remove();
         createQuestion(data);
