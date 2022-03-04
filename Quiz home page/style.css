@@ -41,8 +41,8 @@ header{
 
 .btn-quiz:hover{
     transform: scale(1.03);
-    color: #ee9d2b ;
-    background-color:rgb(101, 101, 192);
+    color: whitesmoke ;
+    background-color:rgb(69, 69, 196);
 }
 .link-nav a{
     margin-left: 10px;
