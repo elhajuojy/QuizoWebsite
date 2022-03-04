@@ -18,8 +18,32 @@ header{
 }
 
 
+.Quizes{
+    width: 80%;
+    margin-top: 30px;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    text-align: center;
+}
 
+.btn-quiz{
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    width: 230px;
+    color: blue;
+    background-color: #FDB44B;
+    transition: 0.2s ease-in;
+}
 
+.btn-quiz:hover{
+    transform: scale(1.03);
+    color: #ee9d2b ;
+    background-color:rgb(101, 101, 192);
+}
 .link-nav a{
     margin-left: 10px;
     text-decoration: none;
@@ -128,18 +152,19 @@ p{
 
 section{
     text-align: center;
-    padding-top:80px;
-    margin-right: 30%;
-    margin-left: 30%;
-    height: 66vh;
+    
 }
 
 footer{
+    position: absolute;
     display: flex;
     gap: 20px;
-    float: right;
+    /* float: right; */
     margin-bottom: 0;
+    bottom: 0;
     margin-right: 10px;
+    align-items: flex-end;
+    
 }
 
 h1{
@@ -183,3 +208,31 @@ h1{
     margin-bottom:59px ;
 }
 
+
+.search{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-decoration: none;
+    /* width: 400px; */
+}
+
+
+.input-search{
+    width: 300px;
+    height: 30px;
+    border: none;
+    color: #1C84FF;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    border-bottom: 2px solid #1C84FF;
+}
+
+.input-search:active{
+    border: none;
+}
+input:focus{
+    outline: 0;
+    /* box-shadow: 0 0 0 0.15rem rgb(49, 49, 47); */
+    transform: scale(1.00);
+}
