@@ -1,18 +1,22 @@
 const btn = document.querySelector(".btn");
 const main = document.querySelector(".QuizSection");
+main.style.transition = '0.2s ease-in';
 const imgsContainer = document.querySelector(".image-contrinaer");
-const message = pageEles(main, 'h1', 'Start The Quiz', 'message');
+const message = pageEles(main, 'h1', 'Getting start with python Quiz ', 'message');
+const headmessge = pageEles(main, 'h2', ' Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etdolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stetclita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,', 'message');
 message.style.textAlign = "center";
+headmessge.style.textAlign = "center";
+headmessge.style.color = 'green';
 const url = 'quiz.json';
 const output = pageEles(main, 'div', '', 'game');
 const game = { score: 0 };
 
 
-
 function imageCreate(herfimge) {
     var image = document.createElement("IMG");
     image.setAttribute("src", herfimge);
-    image.setAttribute("width", "304");
+    image.setAttribute("width", "230");
+    image.style.transition = '0.2s ease-in';
     main.appendChild(image);
 
 }
@@ -27,11 +31,14 @@ function pageEles(parent, t, html, c) {
     const ele = document.createElement(t);
     ele.innerHTML = html;
     ele.classList.add(c);
+    ele.style.border = 'none';
+    parent.style.transition = '0.2s ease-in';
     return parent.appendChild(ele);
 }
 
 function LoadData() {
     btn.style.display = 'none';
+    headmessge.style.display = 'none';
     fetch(url)
         .then(res => res.json())
         .then(data => {
@@ -101,7 +108,7 @@ function outputQuestion(question, parent, tbtn) {
             const temps = parent.querySelectorAll('.btns');
             temps.forEach(el => {
                 el.disbled = true;
-                const bgc = (question.answer == el.textContent) ? 'green' : 'red';
+                const bgc = (question.answer == el.textContent) ? '#00C14E' : '#F25F25';
                 el.style.backgroundColor = bgc;
             })
             tbtn.style.display = 'block';

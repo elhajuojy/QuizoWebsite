@@ -35,6 +35,10 @@ nav img{
     margin-top: 20px;
 }
 
+.Quiz-logo{
+    cursor: pointer;
+}
+
 nav li{
     margin: 10px;
     display: inline;
@@ -102,7 +106,6 @@ button:after,#LoginId:after {
 button:hover:after,#LoginId:hover:after {
     background-color: #6C63FF;
     color: white;
-    
     top: 0px;
     left: 0px;
 }
