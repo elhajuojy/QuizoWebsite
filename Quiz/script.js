@@ -36,6 +36,11 @@ function pageEles(parent, t, html, c) {
     return parent.appendChild(ele);
 }
 
+
+
+
+
+
 function LoadData() {
     btn.style.display = 'none';
     headmessge.style.display = 'none';
@@ -87,7 +92,6 @@ function createQuestion(data) {
 }
 
 function outputQuestion(question, parent, tbtn) {
-    console.log(question);
     const que = pageEles(parent, 'h1', question.question + '?', 'question');
     const arr = question.opt;
     arr.push(question.answer);
